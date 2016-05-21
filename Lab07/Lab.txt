@@ -1,0 +1,35 @@
+Won Yong Ha (IU ID: 0003388278)
+E – Expected Result
+A – Actual Result
+1. E: Will not compile.
+A: The code does not compile because Beta does not define any constructors whatsoever.
+2. E: Will not compile.
+A: The code does not compile because  Beta’s constructor  does not defined the integer value for Alpha’s constructor parameter.
+3. E: Will compile, output: 3
+A: The code compiles and runs successfully, with output 0.
+4. E: Will compile, output: 6
+A: The code compiles and runs successfully, with output 6.
+5. E: Will compile, output: 3
+A: The code does not compile because it already call the constructor already.
+6. E: Will compile, output: 03
+A: The code compiles and runs successfully, with output 03.
+7. E: Will compile, output 4
+A: The code compiles and runs successfully, with output 4.
+8. E: Will not compile.
+A: The code does not compiles because it cannot be assigned the Parents to Child class.
+9. E: Will compile, output: 4
+A: The code compiles and runs successfully, with output 5.
+10. E: Will compile, output: 5
+A: The code does not compiles because the Beta’s test function is not static so that the test function cannot be called from Alpha class also “test(3)” does not refer the Beta class.
+11. E: Will compile, output: 2011
+A: The code compiles and runs successfully, with output 2011.
+12. E: Will not compile.
+A: The code compiles and runs successfully, with output  “... won't compile”.
+13. E: Will not compile.
+A: The code does not compiles because the ‘complain’ method in Alpha does not accept any parameter but ‘complain’ method in Beta does accept String parameter.
+14. E: Will compile, output: “Greetings”
+A: The code does not compiles because the variable message is a class Alpha’s variable so that if class Beta wants to use the variable, it must be used as “Super(msg)”.
+15. E: Will compile, output: “”
+A: The code compiles and runs successfully, with no output.
+16. E: Will not compile.
+A: The code does not compiles because it cannot be assigned the Parents to Child class.
